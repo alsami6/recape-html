@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1500px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+
+.nav-title{
+
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    
+}
+.portfoilo-s{
+    margin-right: 50px;
+}
+.blog-s{
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+}
+
+.hire-btn{
+    background: #FD6E0A;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.header{
+    background-color: #FFF8F3;
+} 
+
+
+
+.banner{
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+}
+
+#sami{
+    width: 415px;
+}
+
+
+
+.hero-about h3{
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.hero-about h1{
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.hero-about p{
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+
+
+.cv-btn{
+    background-color: #FD6E0A;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.content-btn{
+    background-color: #FD6E0A;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
